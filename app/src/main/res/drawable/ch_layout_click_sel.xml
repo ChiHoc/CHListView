@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 按下状态 -->
+    <item android:drawable="@drawable/ch_layout_click_p"
+        android:state_pressed="true"/>
+
+    <!-- 普通无焦点状态 -->
+    <item android:drawable="@drawable/ch_layout_click_n"/>
+</selector>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.bingoogolapple.refreshlayout.BGARefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/qkt_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffcf2"
+    android:paddingBottom="0dp"
+    android:paddingTop="0dp">
+
+    <com.chihoc.CHSectionListView.CHSectionListView
+        android:id="@+id/qkt_refresh_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:overScrollMode="never"
+        android:background="#fffcf2"
+        android:scrollbars="none"
+        android:clipToPadding="false" />
+
+
+</cn.bingoogolapple.refreshlayout.BGARefreshLayout>
