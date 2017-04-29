@@ -10,3 +10,7 @@ https://www.chihoc.com/android-listview-encapsulation-2/
 ## Usage 
 
 Extends CHRefreshBaseListFragment and override function
+
+## LICENSE
+
+MIT
